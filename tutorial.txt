@@ -1,0 +1,31 @@
+GIT e GITHUB
+
+Comandos básicos do git:
+
+git config --global user.name "Seu nome"
+git config --global user.email "seuemail@email.com"
+git clone url_do_repositório
+git status (verificar o status do repositório local)
+git add . (adiciona ao repositório local)
+git commit -m "Atualização" (Documentar as alterações)
+git push (Enviar ao repositório GitHub)
+git pull (Sincroniza as informações do repositório - recebe atualizações feitas fora da pasta local no PC)
+ 
+---
+
+Para validar no html campos obrigatórios, formatos de e-mail etc é necessário enviar o formulário (submit)
+
+Podemos fazer isso de formas:
+<form onsubmit="salvar(event)">
+</form>
+
+function salvar(event) {
+    // a linha abaixo desabilita o comportamento padrão de envio do formulário
+    event.preventDefault()
+}
+
+-------------------------------------------------------------------
+<input type="submit" value="Salvar" onclick="salvar()">
+
+//no JS
+event.preventDefault()
